@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+header {
+    margin-top: 0;
+    height: 50vh;
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F01%2F03%2FGettyImages-1205638014-2000.jpg");
+}
+
+.hero-section {
+    height: 50vh;
+    background-color: rgba(1,1,1,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section h2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 50pt;
+    font-family: 'Caveat', cursive;
+}
+
+main{
+    height: 100vh;
+    background: rgb(224,158,0);
+    background: linear-gradient(0deg, rgba(224,158,0,1) 0%, rgba(2,2,0,1) 100%);
+}
+
+.nav{
+    top: 0;
+    position: sticky;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #aa6804;
+}
+
+.content{
+    margin-top: 30px;
+}
+
+.sidebar{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    float: left;
+    width: 30%;
+}
+
+.box{
+    display: grid;
+    margin-top: 30px;
+    background-color: darkblue;
+    padding: 10px;
+    grid-template-areas:
+    'cbox1 cbox2'
+    'cbox3 cbox4'
+    'cbox5 cbox6'
+    ;
+}
+
+.grid-box1-ch{
+    grid-area: cbox1;
+    height: 100px;
+    background-color: burlywood;
+}
+
+.grid-box2-ch{
+    grid-area: cbox2;
+    height: 100px;
+    background-color: aquamarine;
+}
+.grid-box3-ch{
+    grid-area: cbox3;
+    height: 100px;
+    background-color: darkorchid;
+}
+
+.grid-box4-ch{
+    grid-area: cbox4;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+.grid-box5-ch{
+    grid-area: cbox5;
+    height: 100px;
+    background-color: darkolivegreen;
+}
+
+.grid-box6-ch{
+    grid-area: cbox6;
+    height: 100px;
+    background-color: rgb(206, 242, 143);
+}
+
+.form{
+    float: left;
+    width: 70%;
+}
+
+.card{
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-card{
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-form{
+    padding: 10px;
+}
+
+.item-form label{
+    padding-right: 10%;
+}
+
+button{
+    background-color: #aa6804;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    border-radius: 20px;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    margin-top: 0;
+    color: white;
+    background-color: #333;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
